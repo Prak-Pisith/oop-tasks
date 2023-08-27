@@ -1,0 +1,29 @@
+Task 1: Creating Classes and Objects
+Create a class called Person with properties like name, age, and gender. Create several instances of this class with different values and display their information.
+
+Task 2: Inheritance
+Create a base class called Vehicle with properties like make, model, and year. Then create subclasses like Car and Motorcycle that inherit from Vehicle and have additional properties specific to each type.
+
+Task 3: Method Overriding
+Extend the previous task by adding a method like startEngine() to the base class. Override this method in the subclasses to provide different behavior for starting the engine.
+
+Task 4: Encapsulation
+Create a class called BankAccount with private properties like accountNumber and balance. Provide methods to deposit, withdraw, and check the balance, ensuring that the balance doesn't go negative.
+
+Task 5: Abstraction
+Create an abstract class called Shape with an abstract method calculateArea(). Then create subclasses like Circle and Rectangle that inherit from Shape and implement the method to calculate their respective areas.
+
+Task 6: Polymorphism
+Create an interface called Animal with a method makeSound(). Implement this interface in classes like Dog and Cat, and have each class's makeSound() method output the respective sound.
+
+Task 7: Method Overloading
+Create a class called Calculator with overloaded methods for addition. One should take two numbers and return their sum, and another should take an array of numbers and return their total.
+
+Task 8: Composition
+Create a class called Author with properties like name and booksWritten. Then create a class called Book with properties like title, publicationYear, and an instance of Author.
+
+Task 9: Singleton Pattern
+Implement a Singleton pattern for a class called Logger that manages log messages throughout your application. This ensures there's only one instance of the Logger class.
+
+Task 10: Factory Pattern
+Create a factory class that generates different types of vehicles based on a parameter. You can have classes like CarFactory and MotorcycleFactory that produce instances of Car and Motorcycle respectively.
